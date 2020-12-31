@@ -37,35 +37,35 @@
 ## 2.2.0
 
 ## Change
-- 默认不启用 node-status 插件[#2968](https://github.com/apache/apisix/pull/2968)
+- 默认不启用 node-status 插件 [#2968](https://github.com/apache/apisix/pull/2968)
 - upstreeam 配置中不再允许使用 k8s_deployment_info [#3098](https://github.com/apache/apisix/pull/3098)
-- 默认不再匹配路由中以 ':' 开头的参数变量[#3154](https://github.com/apache/apisix/pull/3154)
+- 默认不再匹配路由中以 ':' 开头的参数变量 [#3154](https://github.com/apache/apisix/pull/3154)
 
 ## Deprecated
 
 ### Core
 - :sunrise: 允许一个 consumer 关联多个认证插件 [#2898](https://github.com/apache/apisix/pull/2898)
-- :sunrise: 增加 etcd 重试间隔，并允许配置[#2977](https://github.com/apache/apisix/pull/2977)
-- :sunrise: 允许启用或禁用 route[#2943](https://github.com/apache/apisix/pull/2943)
-- :sunrise: 允许通过 graphql 属性进行路由[#2964](https://github.com/apache/apisix/pull/2964)
-- :sunrise: 共享 etcd 鉴权 token[#2932](https://github.com/apache/apisix/pull/2932)
-- :sunrise: 新增 control API[#3048](https://github.com/apache/apisix/pull/3048)
+- :sunrise: 增加 etcd 重试间隔，并允许配置 [#2977](https://github.com/apache/apisix/pull/2977)
+- :sunrise: 允许启用或禁用 route [#2943](https://github.com/apache/apisix/pull/2943)
+- :sunrise: 允许通过 graphql 属性进行路由 [#2964](https://github.com/apache/apisix/pull/2964)
+- :sunrise: 共享 etcd 鉴权 token [#2932](https://github.com/apache/apisix/pull/2932)
+- :sunrise: 新增 control API [#3048](https://github.com/apache/apisix/pull/3048)
 
 ## Plugin
-- :sunrise: limt-count 中使用 'remote_addr' 作为默认 key[#2927](https://github.com/apache/apisix/pull/2927)
-- :sunrise: 支持在 fault-injection 的 abort.body 中使用变量[#2986](https://github.com/apache/apisix/pull/2986)
-- :sunrise: 新增插件 `server-info`[#2926](https://github.com/apache/apisix/pull/2926)
-- :sunrise: 增加 batch process 指标[#3070](https://github.com/apache/apisix/pull/3070)
-- :sunrise: 新增 traffic-split 插件[#2935](https://github.com/apache/apisix/pull/2935)
-- :sunrise: proxy-rewrite 支持在 header 中使用变量[#3144](https://github.com/apache/apisix/pull/3144)
+- :sunrise: limt-count 中使用 'remote_addr' 作为默认 key [#2927](https://github.com/apache/apisix/pull/2927)
+- :sunrise: 支持在 fault-injection 的 abort.body 中使用变量 [#2986](https://github.com/apache/apisix/pull/2986)
+- :sunrise: 新增插件 `server-info` [#2926](https://github.com/apache/apisix/pull/2926)
+- :sunrise: 增加 batch process 指标 [#3070](https://github.com/apache/apisix/pull/3070)
+- :sunrise: 新增 traffic-split 插件 [#2935](https://github.com/apache/apisix/pull/2935)
+- :sunrise: proxy-rewrite 支持在 header 中使用变量 [#3144](https://github.com/apache/apisix/pull/3144)
 
 ## Bugfix
-- basic-auth 应该在 rewrite phase 执行[#2905](https://github.com/apache/apisix/pull/2905)
-- http/udp-logger 中插件配置运行时变更没有生效[#2901](https://github.com/apache/apisix/pull/2901)
-- 修复 limit-conn 对象没有被正确释放的问题[#2465](https://github.com/apache/apisix/pull/2465)
-- 修复自动生成的 id 可能重复的问题[#3003](https://github.com/apache/apisix/pull/3003)
-- 修复 OpenResty 1.19 下 ctx 互相影响的问题[#3105](https://github.com/apache/apisix/pull/3105)
-- 修复 route.vars 字段的校验[#3124](https://github.com/apache/apisix/pull/3124)
+- basic-auth 应该在 rewrite phase 执行 [#2905](https://github.com/apache/apisix/pull/2905)
+- http/udp-logger 中插件配置运行时变更没有生效 [#2901](https://github.com/apache/apisix/pull/2901)
+- 修复 limit-conn 对象没有被正确释放的问题 [#2465](https://github.com/apache/apisix/pull/2465)
+- 修复自动生成的 id 可能重复的问题 [#3003](https://github.com/apache/apisix/pull/3003)
+- 修复 OpenResty 1.19 下 ctx 互相影响的问题。**对于使用 OpenResty 1.19 的用户，请尽快升级到该版本。** [#3105](https://github.com/apache/apisix/pull/3105)
+- 修复 route.vars 字段的校验 [#3124](https://github.com/apache/apisix/pull/3124)
 
 更多的变动可以参考[里程碑](https://github.com/apache/apisix/milestone/10)
 
