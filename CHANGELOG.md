@@ -64,8 +64,8 @@
 - fixed the non effective config update in http/udp-logger[#2901](https://github.com/apache/apisix/pull/2901)
 - always necessary to save the data of the limit concurrency, and release the statistical status in the log phase[#2465](https://github.com/apache/apisix/pull/2465)
 - avoid duplicate auto-generated id[#3003](https://github.com/apache/apisix/pull/3003)
--  fix: ctx being contaminated due to a new feature of openresty 1.19[#3105](https://github.com/apache/apisix/pull/3105) 
--  fix: correct the validation of route.vars[#3124](https://github.com/apache/apisix/pull/3124) 
+-  fix: ctx being contaminated due to a new feature of openresty 1.19[#3105](https://github.com/apache/apisix/pull/3105)
+-  fix: correct the validation of route.vars[#3124](https://github.com/apache/apisix/pull/3124)
 
 For more changes, please refer to [Milestone](https://github.com/apache/apisix/milestone/10)
 

@@ -64,8 +64,8 @@
 - http/udp-logger 中插件配置运行时变更没有生效[#2901](https://github.com/apache/apisix/pull/2901)
 - 修复 limit-conn 对象没有被正确释放的问题[#2465](https://github.com/apache/apisix/pull/2465)
 - 修复自动生成的 id 可能重复的问题[#3003](https://github.com/apache/apisix/pull/3003)
-- 修复 OpenResty 1.19 下 ctx 互相影响的问题[#3105](https://github.com/apache/apisix/pull/3105) 
-- 修复 route.vars 字段的校验[#3124](https://github.com/apache/apisix/pull/3124) 
+- 修复 OpenResty 1.19 下 ctx 互相影响的问题[#3105](https://github.com/apache/apisix/pull/3105)
+- 修复 route.vars 字段的校验[#3124](https://github.com/apache/apisix/pull/3124)
 
 更多的变动可以参考[里程碑](https://github.com/apache/apisix/milestone/10)
 
